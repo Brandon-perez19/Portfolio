@@ -59,14 +59,39 @@ section {
 section h2 {
     color: whitesmoke;
     font-size: xx-large;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
-#resume {
-
+#About-Me {
+    margin-bottom: 15px;
 }
+
+.About-Me-Body {
+    float: right;
+    width: 70%;
+}
+
+#About-Me img {
+    width: 300px;
+    display: inline-block;
+    border: 2px whitesmoke solid
+}
+
+.Selfie {
+    display:inline-block;
+    width: 30%
+}
+
+#Projects {
+    border-top: 2px whitesmoke solid;
+}
+
+
+
 
 #Contact-Me {
-    background-color: #014d8b;
+    
     margin-top: 20px;
     position: relative;
     border: 2px whitesmoke solid
@@ -77,7 +102,7 @@ section h2 {
     transform: rotate(-90deg);
     border-bottom: 4px solid whitesmoke;
     position: absolute;
-    bottom: 80px
+    bottom: 80px;
 }
 
 #Contact-Me form {
@@ -86,6 +111,7 @@ section h2 {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    background-color: #ffffff8e;
 }
 
 #Contact-Me form input {
