@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/tech-3041437_1920.jpg);
+    border-bottom: 2px whitesmoke solid
+}
+
+
+header {
+    background-color:#014d8b;
+    border: 2px whitesmoke solid
+}
+
+h1 {
+    font-weight: bold;
+    display: inline;
+}
+
+h1 a {
+    text-decoration: none;
+    color:whitesmoke
+}
+
+header nav {
+    float: right;
+    margin: 10px, 0;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin: 15px 0;
+    font-size: larger;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 0 40px;
+    color:whitesmoke;
+}
+section {
+    margin: auto;
+}
+
+section h2 {
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+#resume {
+
+}
+
+#Contact-Me {
+    background-color: #014d8b;
+    margin-top: 20px;
+    position: relative;
+    border: 2px whitesmoke solid
+}
+
+#Contact-Me div {
+    display: inline-block;
+    transform: rotate(-90deg);
+    border-bottom: 4px solid whitesmoke;
+    position: absolute;
+    bottom: 80px
+}
+
+#Contact-Me form {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Contact-Me form input {
+    display:block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px black solid;
+    height: 20px
+}
+
+#Contact-Me form label {
+    color: white;
+}
+
+footer ul {
+    width: 100%
+}
+
+footer li{
+    display: inline-block;
+    font-style: oblique;
+    color: whitesmoke;
+    margin: 0 170px;
+    
+}
+
