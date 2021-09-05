@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,29 +12,20 @@ p {
     color: slategray;
 }
 
-.hero {
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./images/tech-3041437_1920.jpg);
-    border-bottom: 4px slategray solid
-}
-
-
-header {
-    background-color:beige;
-    border-bottom: 4px slategray solid
-}
-
 h1 {
     font-weight: bold;
     display: inline;
     font-family: 'Times New Roman', Georgia, Times, serif;
 }
 
-h1 a {
+a {
     text-decoration: none;
     color:slategray
+}
+
+header {
+    background-color:beige;
+    border-bottom: 4px slategray solid
 }
 
 header nav {
@@ -45,16 +37,19 @@ header nav ul li {
     display:inline-block;
     margin: 15px 0;
     font-size: larger;
-
 }
 
 header nav ul li a {
     text-decoration: underline;
     margin: 0 40px;
-    color:slategray;
 }
-section {
-    margin: auto;
+
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/pexels-veeterzy-38136.jpg);
+    border-bottom: 4px slategray solid
 }
 
 section h2 {
@@ -75,34 +70,43 @@ section h2 {
     width: 70%;
 }
 
-#About-Me img {
-    width: 300px;
-    display: inline-block;
-    border: 4px slategray solid
-}
-
 .Selfie {
     display:inline-block;
-    width: 30%
+}
+
+.Selfie img {
+    width: 300px;
+    border: 4px slategray solid;
 }
 
 #Projects {
     border-top: 4px slategray solid;
-
+    position: relative;
+    background-image: url(./images/pngfind.com-white-wave-png-4546958.png)
 }
 
 #Projects-heading{
     transform: rotate(-90deg);
-    padding: 4px 0px;
-    display: inline-block;
     position: absolute;
-    margin: 199px 0 0 0;
+    top: 400px
+} 
+
+#project-heading h2 {
+    text-align:center
 }
 
-.Place-holder {
+.Run-buddy-picture img {
+    height:400px;
+    width:700px;
+    border: 4px solid slategrey;
+    margin: 0 350px;
+}
+
+#Place-holder-1, #Place-holder-2 {
     display: inline-block;
+    padding: 20px 100px;
     width: 40%;
-    margin: 0 56px;
+    margin: 0 50px;
 }
 
 .Place-holder-pic img {
@@ -111,30 +115,22 @@ section h2 {
     width: 420px;
 }
 
-.Place-holder-pic {
-    width: 420px;
-    margin: 0 auto,
+.Project-title {
+    padding: 10px
 }
 
+.Project-title p {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+    text-align:center
+}
 
-.Run-buddy-picture {
-    padding: 24px 395px;
-}
-.Run-buddy-picture img {
-    height:200px;
-    width:400px;
-    border: 4px solid slategrey
-    
-}
 
 #Contact-Me {
     margin-top: 20px;
     position: relative;
     border: 4px slategray solid
-}
-
-#Contact-Me h2 {
-    padding:0 
 }
 
 #Contact-Me div {
@@ -143,6 +139,10 @@ section h2 {
     border-bottom: 4px solid slategray;
     position: absolute;
     bottom: 80px;
+}
+
+#Contact-Me h2 {
+    padding:0 
 }
 
 #Contact-Me form {
@@ -154,6 +154,10 @@ section h2 {
     background-color: #ffffff8e;
 }
 
+#Contact-Me form label {
+    color: slategrey;
+}
+
 #Contact-Me form input {
     display:block;
     width: 50%;
@@ -161,10 +165,6 @@ section h2 {
     margin: 0 auto;
     border: 2px black solid;
     height: 20px
-}
-
-#Contact-Me form label {
-    color: white;
 }
 
 footer ul {
@@ -175,7 +175,5 @@ footer li{
     display: inline-block;
     font-style: oblique;
     color: slategray;
-    margin: 0 170px;
-    
+    margin: 10px 170px;
 }
-
