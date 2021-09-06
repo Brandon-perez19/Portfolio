@@ -14,7 +14,6 @@ p {
 
 h1 {
     font-weight: bold;
-    display: inline;
     font-family: 'Times New Roman', Georgia, Times, serif;
 }
 
@@ -23,20 +22,32 @@ a {
     color:slategray
 }
 
+
+
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color:beige;
     border-bottom: 4px slategray solid
 }
 
 header nav {
-    float: right;
     margin: 10px, 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul li {
     display:inline-block;
     margin: 15px 0;
     font-size: larger;
+    
 }
 
 header nav ul li a {
@@ -50,7 +61,10 @@ header nav ul li a {
     background-position: center;
     background-image: url(./images/pexels-veeterzy-38136.jpg);
     border-bottom: 4px slategray solid;
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -67,23 +81,26 @@ header nav ul li a {
 section h2 {
     color: slategray;
     font-size: xx-large;
-    margin-bottom: 15px;
     margin-top: 10px;
     text-decoration: underline;
-    padding-left: 80px;
 }
 
 #About-Me {
-    margin-bottom: 15px;
+    margin-bottom: 15px;display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .About-Me-Body {
-    float: right;
-    width: 70%;
+    margin-top: 120px;
+    margin-left: 30px;
 }
 
 .Selfie {
     display:inline-block;
+    width: 30%;
+    padding-top: 10px;
 }
 
 .Selfie img {
@@ -94,7 +111,10 @@ section h2 {
 #Projects {
     border-top: 4px slategray solid;
     position: relative;
-    background-image: url(./images/pngfind.com-white-wave-png-4546958.png)
+    background-image: url(./images/pngfind.com-white-wave-png-4546958.png);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 #Projects-heading{
@@ -138,11 +158,12 @@ section h2 {
     text-align:center
 }
 
-
 #Contact-Me {
-    margin-top: 20px;
     position: relative;
-    border: 4px slategray solid
+    border: 4px slategray solid;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 #Contact-Me div {
@@ -158,11 +179,9 @@ section h2 {
 }
 
 #Contact-Me form {
-    display: inline-block;
     padding: 20px;
     text-align: center;
     width: 100%;
-    margin: 0 auto;
     background-color: #ffffff8e;
 }
 
@@ -179,7 +198,16 @@ section h2 {
     height: 20px
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%
 }
 
@@ -187,5 +215,18 @@ footer li{
     display: inline-block;
     font-style: oblique;
     color: slategray;
-    margin: 10px 170px;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    
+}
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    
+  }
