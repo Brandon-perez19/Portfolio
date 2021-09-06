@@ -8,6 +8,7 @@ A website that showcases myself and my latest projects
 * CSS
 
 ## Website
+https://brandon-perez19.github.io/Portfolio/
 
 
 ## Contribution
