@@ -10,7 +10,8 @@ A website that showcases myself and my latest projects
 ## Website
 https://brandon-perez19.github.io/Portfolio/
 
-![](assets/images/Screen-Shot)
+##Screenshot
+![](assets/images/Screen-Shot.png)
 
 
 ## Contribution
