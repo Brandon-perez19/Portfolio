@@ -59,7 +59,7 @@ header nav ul li a {
     height: 400px;
     background-size: cover;
     background-position: center;
-    background-image: url(./images/pexels-veeterzy-38136.jpg);
+    background-image: url(../images/pexels-veeterzy-38136.jpg);
     border-bottom: 4px slategray solid;
     position: relative;
     display: flex;
