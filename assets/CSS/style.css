@@ -90,9 +90,9 @@ section h2 {
     text-decoration: underline;
 }
 
-#About-Me-title {
-    order: 2;
-
+#About-Me-title, #Projects-heading {
+    width:100%;
+    padding-left: 70px;
 }
 
 #About-Me {
@@ -106,13 +106,12 @@ section h2 {
 }
 
 .About-Me-Body {
-    margin-top: 15px;
-    width: 43%;
-    order: 3;
+    padding-top: 10px;
+    width: 700px;
 }
 
 .Selfie {
-    width: 25%;
+    width: 300px;
     padding-top: 10px;
 }
 
@@ -130,18 +129,12 @@ section h2 {
     justify-content: space-between;
 }
 
-#Projects-heading{
-    transform: rotate(-90deg);
-    position: absolute;
-    top: 400px
-} 
-
 #project-heading h2 {
     text-align:center
 }
 
 .Run-buddy {
-    width: 90%;
+    width: 900px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -158,9 +151,8 @@ section h2 {
 
 #Place-holder-1, #Place-holder-2 {
     display: inline-block;
-    padding: 20px 100px;
-    width: 40%;
-    margin: 0 50px;
+    width: 400px;
+    margin: 10px 50px;
 }
 
 .Place-holder-pic img {
@@ -177,7 +169,8 @@ section h2 {
     font-weight: bold;
     font-size: x-large;
     text-decoration: underline;
-    text-align:center
+    text-align:center;
+    width: 100%;
 }
 
 #Contact-Me {
