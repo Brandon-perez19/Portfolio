@@ -233,7 +233,7 @@ footer li{
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    .All-Projects {
+    .Challenges {
         margin: 10px;
     }
 }
