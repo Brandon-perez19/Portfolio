@@ -22,10 +22,7 @@ a {
     color:slategray
 }
 
-
-
-
-div {
+div, section {
     display: flex
 }
 
@@ -93,6 +90,7 @@ section h2 {
 #About-Me-title, #Projects-heading {
     width:100%;
     padding-left: 70px;
+    border-bottom: 4px slategray dotted
 }
 
 #About-Me {
@@ -105,13 +103,19 @@ section h2 {
     
 }
 
+.About-Me-Content {
+    width: 100%;
+}
+
 .About-Me-Body {
+    margin-left: 25px;
     padding-top: 10px;
     width: 700px;
 }
 
 .Selfie {
     width: 300px;
+    margin-left: 20px;
     padding-top: 10px;
 }
 
@@ -133,39 +137,37 @@ section h2 {
     text-align:center
 }
 
-.Run-buddy {
-    width: 900px;
+.All-Projects {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    align-content: space-between;
 }
 
-.Run-buddy-picture img {
-    height:400px;
-    width:700px;
-    border: 4px solid slategrey;
+.Challenges {
+    display: flex;
+    width: 500px;
+    margin: 10px auto;
 }
 
-#Place-holder-1, #Place-holder-2 {
-    display: inline-block;
+.Challenges-pic {
     width: 400px;
-    margin: 10px 50px;
 }
 
-.Place-holder-pic img {
+.Challenges-pic img {
     border: 4px slategrey solid;
     height: 200px;
-    width: 420px;
+    width: 400px;
 }
 
-.Project-title {
-    padding: 10px
+.Challenges-title {
+    padding: 10px;
+    width: 100px;
 }
 
-.Project-title p {
+.Challenges-title p {
     font-weight: bold;
     font-size: x-large;
     text-decoration: underline;
@@ -174,7 +176,6 @@ section h2 {
 }
 
 #Contact-Me {
-    position: relative;
     border: 4px slategray solid;
     flex-wrap: wrap;
     display: flex;
@@ -182,14 +183,17 @@ section h2 {
 }
 
 #Contact-Me div {
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 80px;
+   width:100%;
+   background-color: #ffffff8e;
+}
+
+#Contact-Me div h2 {
+    margin: 10px auto;
 }
 
 
 #Contact-Me form {
-    padding: 20px;
+    padding-bottom: 20px;
     text-align: center;
     width: 100%;
     background-color: #ffffff8e;
