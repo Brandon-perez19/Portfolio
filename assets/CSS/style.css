@@ -94,7 +94,6 @@ section h2 {
 
 #About-Me-title, #Projects-heading {
     width:100%;
-    padding-left: 70px;
     border-bottom: 4px slategray dashed
 }
 
@@ -136,10 +135,6 @@ section h2 {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-}
-
-#project-heading h2 {
-    text-align:center
 }
 
 .All-Projects {
@@ -192,7 +187,7 @@ section h2 {
     background-color: #ffffff8e;
 }
 
-#Contact-Me div h2 {
+#Contact-Me div h2, #About-Me-title h2, #Projects-heading h2 {
     margin: 10px auto;
 }
 
@@ -263,10 +258,6 @@ footer li {
 
     header nav ul li a {
         margin: 0 20px;
-    }
-
-    #About-Me-title, #Projects-heading {
-        padding-left: 20px;
     }
 
     .About-Me-Body {
