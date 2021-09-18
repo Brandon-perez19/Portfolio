@@ -209,7 +209,12 @@ section h2 {
     text-align: center;
     margin: 0 auto;
     border: 2px black solid;
-    height: 20px
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+#Contact-Me form button {
+    margin-top: 4px;
 }
 
 footer {
@@ -288,11 +293,4 @@ footer li {
         text-align: center;
     }
 
-    #Contact-Me form input {
-        margin-bottom: 4px;
-    }
-
-    #Contact-Me form button {
-        margin-top: 4px;
-    }
 }
