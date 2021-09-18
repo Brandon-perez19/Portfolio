@@ -57,6 +57,11 @@ header nav ul li a {
     margin: 0 40px;
 }
 
+header nav ul li a:hover {
+    background: white;
+    border-radius: 20px;
+}
+
 .hero {
     height: 400px;
     background-size: cover;
@@ -291,6 +296,11 @@ footer li {
     section h2 {
         width: 325px;
         text-align: center;
+    }
+
+    .Challenges-title p {
+        transform:rotate(0.25turn);
+        height: 90px;
     }
 
 }
