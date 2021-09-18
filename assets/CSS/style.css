@@ -183,8 +183,8 @@ section h2 {
 }
 
 #Contact-Me div {
-   width:100%;
-   background-color: #ffffff8e;
+    width:100%;
+    background-color: #ffffff8e;
 }
 
 #Contact-Me div h2 {
@@ -225,7 +225,7 @@ footer ul {
     width: 100%
 }
 
-footer li{
+footer li {
     display: inline-block;
     font-style: oblique;
     color: slategray;
@@ -233,5 +233,61 @@ footer li{
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header h1 {
+        text-align:left;
+        
+    }
+
+    header nav ul li {
+        font-size: 5.5vw
+
+    }
+
+    header nav ul li a {
+        margin: 0 20px;
+    }
+
+    #About-Me-title, #Projects-heading {
+        padding-left: 20px;
+    }
+
+    .About-Me-Body {
+        width: 150px;
+        font-size: 13px;
+    }
+
+    .Selfie {
+        padding-top: 15px;
+        width: 200px;
+    }
+
+    .Selfie img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .Challenges {
+        width: 325px
+    }
     
-  }
+    .Challenges-pic img, .Challenges-pic {
+        width: 250px;
+    }
+
+    section h2 {
+        width: 325px;
+        text-align: center;
+    }
+
+    #Contact-Me form input {
+        margin-bottom: 4px;
+    }
+
+    #Contact-Me form button {
+        margin-top: 4px;
+    }
+}
