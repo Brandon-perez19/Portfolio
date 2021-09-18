@@ -241,10 +241,15 @@ footer li {
         text-align:left;
         
     }
+    
+    header nav {
+        width: 100%;
+        border-top: solid slategray 2px
+    }
 
     header nav ul li {
-        font-size: 5.5vw
-
+        font-size: 5.5vw;
+        margin: 10px 0
     }
 
     header nav ul li a {
