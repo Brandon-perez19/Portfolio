@@ -10,9 +10,12 @@ body {
 
 p {
     color: slategray;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
+    color:slategray;
+    font-style:italic;
     font-weight: bold;
     font-family: 'Times New Roman', Georgia, Times, serif;
 }
@@ -55,6 +58,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: underline;
     margin: 0 40px;
+    font-style: oblique;
 }
 
 header nav ul li a:hover {
@@ -82,7 +86,7 @@ header nav ul li a:hover {
 }
 
 .hero-text p {
-    color: black
+    color: white
 }
 
 section h2 {
@@ -90,10 +94,14 @@ section h2 {
     font-size: xx-large;
     margin-top: 10px;
     text-decoration: underline;
+    font-style: italic;
 }
 
 #About-Me-title, #Projects-heading {
     width:100%;
+}
+
+#About-Me-title {
     border-bottom: 4px slategray dashed
 }
 
@@ -131,7 +139,6 @@ section h2 {
 #Projects {
     border-top: 4px slategray solid;
     position: relative;
-    background-image: url(./images/pngfind.com-white-wave-png-4546958.png);
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -160,6 +167,10 @@ section h2 {
     border: 4px slategrey solid;
     height: 200px;
     width: 400px;
+}
+
+.active-project:hover {
+    opacity: 80%;
 }
 
 .Challenges-title {
@@ -261,7 +272,6 @@ footer li {
     }
 
     .About-Me-Body {
-        width: 150px;
         font-size: 13px;
     }
 
@@ -289,5 +299,17 @@ footer li {
         width: 325px;
         text-align: center;
     }
+}
 
+@media screen and (max-width: 350px) {
+    header nav ul {
+        width: max-content;
+        display: flex;
+    }
+    .About-Me-Body {
+        width: 100%;
+    }
+    .About-Me-Content {
+        display: block;
+    }
 }
